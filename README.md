@@ -1,6 +1,6 @@
 # scoop-yaw
 
-Scoop bucket for [yaw](https://yaw.sh) — terminal, connections, ai.
+Scoop bucket for [yaw](https://yaw.sh) — terminal, ai, connections.
 
 ## Usage
 
