@@ -9,11 +9,11 @@
     "architecture": {
         "64bit": {
             "url": "https://yaw.sh/downloads/yaw-win32-x64-0.9.300.zip",
-            "hash": "ec1ec7c2b99937eea4e8f97c89e8e28b3587f97e3caac59a2d23ee4e40ddf7b7"
+            "hash": "846bcc451bf42cbb9b9b4dd4e1f5272710eda06eb1c4a68c75f37d6d5403218a"
         },
         "arm64": {
             "url": "https://yaw.sh/downloads/yaw-win32-arm64-0.9.300.zip",
-            "hash": "43745ea84a29c2de27e92981e8f92f588f30cf0a8a30f0f08a74b44d8ca7d902"
+            "hash": "6faefd567f0d4d5d33bee5a251b8719a2327e419ed7b1b81acf7cc57264d7ed6"
         }
     },
     "bin": [
