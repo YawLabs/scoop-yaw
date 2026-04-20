@@ -8,11 +8,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://yaw.sh/downloads/yaw-win32-x64-0.9.930.zip",
+            "url": "https://downloads.yaw.sh/yaw-win32-x64-0.9.930.zip",
             "hash": "1eb3dd500581cc42ee6253cc6a8530a859387663c5418c9bb00b92d4ffb1b67d"
         },
         "arm64": {
-            "url": "https://yaw.sh/downloads/yaw-win32-arm64-0.9.930.zip",
+            "url": "https://downloads.yaw.sh/yaw-win32-arm64-0.9.930.zip",
             "hash": "727fb450cbd5cfe7378147c2207598b6945e6cd651c6d2c44a956fccb1ba924f"
         }
     },
@@ -32,10 +32,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://yaw.sh/downloads/yaw-win32-x64-$version.zip"
+                "url": "https://downloads.yaw.sh/yaw-win32-x64-$version.zip"
             },
             "arm64": {
-                "url": "https://yaw.sh/downloads/yaw-win32-arm64-$version.zip"
+                "url": "https://downloads.yaw.sh/yaw-win32-arm64-$version.zip"
             }
         }
     }
