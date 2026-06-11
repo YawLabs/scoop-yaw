@@ -1,0 +1,53 @@
+{
+  "version": "1.5.1",
+  "description": "AWS MCP server — call any AWS API from AI assistants, with first-class SSO re-login (no more 'browser won't open' dead ends)",
+  "homepage": "https://github.com/YawLabs/aws-mcp",
+  "license": {
+    "identifier": "MIT",
+    "url": "https://yaw.sh"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/YawLabs/aws-mcp/releases/download/v1.5.1/aws-mcp-win32-x64.exe",
+      "hash": "853310a934c590890554189a65a474fb6f9349d0ba10f14b81b2dc31babf345c",
+      "bin": [
+        [
+          "aws-mcp-win32-x64.exe",
+          "aws-mcp"
+        ]
+      ]
+    },
+    "arm64": {
+      "url": "https://github.com/YawLabs/aws-mcp/releases/download/v1.5.1/aws-mcp-win32-arm64.exe",
+      "hash": "39dcba4da9d974676d59847646262aa6576f597b0089240b0c6851ff1f2317e5",
+      "bin": [
+        [
+          "aws-mcp-win32-arm64.exe",
+          "aws-mcp"
+        ]
+      ]
+    }
+  },
+  "post_install": [
+    "Get-ChildItem \"$dir\\*.exe\" | Unblock-File"
+  ],
+  "checkver": {
+    "github": "https://github.com/YawLabs/aws-mcp"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/YawLabs/aws-mcp/releases/download/v$version/aws-mcp-win32-x64.exe",
+        "hash": {
+          "url": "$url.sha256"
+        }
+      },
+      "arm64": {
+        "url": "https://github.com/YawLabs/aws-mcp/releases/download/v$version/aws-mcp-win32-arm64.exe",
+        "hash": {
+          "url": "$url.sha256"
+        }
+      }
+    }
+  }
+}
