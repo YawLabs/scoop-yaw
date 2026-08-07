@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://downloads.yaw.sh/yaw-win32-x64-2.0.20.zip",
-            "hash": "b9e0a1c982adc373b15d9b0850fb0fbb4c042d91ba5b53cf52cbc6568b502c3b"
+            "hash": "89100a9dd5e421022a8522c8e1e03a172f8f9c42e85cc4cb00565dba6131448d"
         },
         "arm64": {
             "url": "https://downloads.yaw.sh/yaw-win32-arm64-2.0.20.zip",
