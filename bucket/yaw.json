@@ -1,5 +1,5 @@
 {
-    "version": "2.0.20",
+    "version": "2.0.21",
     "description": "A modern terminal with built-in connection management and AI assistance.",
     "homepage": "https://yaw.sh",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.yaw.sh/yaw-win32-x64-2.0.20.zip",
-            "hash": "89100a9dd5e421022a8522c8e1e03a172f8f9c42e85cc4cb00565dba6131448d"
+            "url": "https://downloads.yaw.sh/yaw-win32-x64-2.0.21.zip",
+            "hash": "a465c0151904cb44a5cbf8b2bc1b616c1ce80d6d9dc3f8bad6d43a986bc0f342"
         },
         "arm64": {
-            "url": "https://downloads.yaw.sh/yaw-win32-arm64-2.0.20.zip",
-            "hash": "990f7f5cef0fadb6857c6d5179d00b2664fe3817e09832d920cb14a6f2c7293a"
+            "url": "https://downloads.yaw.sh/yaw-win32-arm64-2.0.21.zip",
+            "hash": "3dae5647830905d7876d8e844c0b2a7ff016ec30ab48c2013912e9035aefd19c"
         }
     },
     "bin": [
