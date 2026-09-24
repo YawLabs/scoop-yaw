@@ -30,4 +30,4 @@ scoop update yaw
 scoop update oam
 ```
 
-<a href="https://x.com/TokenLimitNews"><img src="https://img.shields.io/badge/follow-%40TokenLimitNews-000000?logo=x&logoColor=white" alt="Follow @TokenLimitNews on X"></a>
+<a href="https://x.com/YawLabs"><img src="https://img.shields.io/badge/follow-%40YawLabs-000000?logo=x&logoColor=white" alt="Follow @YawLabs on X"></a>
